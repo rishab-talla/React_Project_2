@@ -1,0 +1,57 @@
+[
+
+    {
+        "beforeText": "Social Media ",
+        "highlightText": "10x ",
+        "afterText": "Faster with AI",
+        "secText" : "Over 4,000 5-star reviews",
+        "image" : "/assets/images/illustration-five-stars.webp",
+        "class1":"item headline"
+    },
+
+    {
+        "beforeText": "Schedule to social media",
+        "highlightText": "",
+        "afterText": "",
+        "secText" : "Optimize post timings to publish content at the perfect time for your audience",
+        "image" : "/assets/images/illustration-schedule-posts.webp",
+        "class1":"item schedule"
+    },
+
+    {
+        "beforeText": "",
+        "highlightText": "",
+        "afterText": "",
+        "secText" : "Manage multiple accounts and platforms",
+        "image" : "/assets/images/illustration-multiple-platforms.webp",
+        "class1":"item manage"
+    },
+
+    {
+        "beforeText": "Mantain a consistent posting schedule",
+        "highlightText": "",
+        "afterText": "",
+        "secText" : "",
+        "image" : "/assets/images/illustration-consistent-schedule.webp",
+        "class1":"item posting"
+    },
+
+    {
+        "beforeText": "",
+        "highlightText": ">56%",
+        "afterText": " faster audience growth",
+        "secText" : "",
+        "image" : "/assets/images/illustration-audience-growth.webp",
+        "class1":"item growth"
+    },
+
+    {
+        "beforeText": "",
+        "highlightText": "",
+        "afterText": "",
+        "secText" : "Grow followers with non-stop content",
+        "image" : "/assets/images/illustration-grow-followers.webp",
+        "class1":"item followers"
+    }
+
+]
