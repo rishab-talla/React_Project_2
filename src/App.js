@@ -8,14 +8,14 @@ function App() {
       <div className='item create-post'>
         <p>Create and schedule content <span>quicker.</span></p> 
         <div className='image-block'>
-        <img src='\assets\images\illustration-create-post.webp'/>
+        <img src={process.env.PUBLIC_URL + "/assets/images/illustration-create-post.webp"}/>
         </div>
       </div>
         
       <div className='item write-content'>
        <p>Write your content using AI</p>
        <div className='image-block'>
-        <img src='/assets/images/illustration-ai-content.webp'/>
+        <img src={process.env.PUBLIC_URL + '/assets/images/illustration-ai-content.webp'}/>
         </div>
       </div>
       </div>

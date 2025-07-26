@@ -259,8 +259,9 @@ body {
 
 @media (max-width: 430px) {
   .App {
+    display: flex;
     flex-direction: column-reverse;
-    width: 95%;
+    width: 90%;
     margin: 2rem auto;
     gap: 1.7rem;
   }
