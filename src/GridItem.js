@@ -13,7 +13,7 @@ const GridItem = (props) => {
       </p>
 
       <div className="image-block">
-          <img src={image} alt="" />
+          <img src={process.env.PUBLIC_UR + image} alt="" />
       </div>
 
 
