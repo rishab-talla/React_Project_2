@@ -276,20 +276,20 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1.7rem;
-    width: 100%;
   }
 
   .item {
     width: 100%;
     font-size: 1rem;
+    box-sizing: border-box;
   }
 
   .create-post {
     padding: 1rem;
     font-size: 1.2rem;
     line-height: 1.5rem;
-    width: 98%;
-    margin: auto;
+    /* width: 98%; */
+    /* margin: auto; */
   }
 
   .create-post p {
@@ -305,7 +305,7 @@ body {
 
   .write-content {
     padding: 1rem;
-     width: 98%;
+     /* width: 98%; */
   }
 
   .write-content p {
@@ -325,7 +325,8 @@ body {
     padding: 1.2rem 1rem;
     text-align: center;
     order: 1;
-     width: 98%;
+     width: 67%;
+     box-sizing: border-box;
   }
 
   .headline p {
@@ -342,7 +343,7 @@ body {
     padding: 1rem;
     text-align: center;
     order: 4;
-    width: 98%;
+    width: 67%;
   }
 
   .schedule p {
@@ -366,7 +367,7 @@ body {
 
   .manage{
     order: 2;
-    width: 106%;
+    width: 67%;
   }
 
   .manage small {
@@ -380,7 +381,7 @@ body {
 
   .posting{
     order: 3;
-    width: 106%;
+    width: 67%;
   }
 
   .posting p {
@@ -397,7 +398,7 @@ body {
 
   .growth{
     order: 6;
-    width: 106%;
+    width: 66.5%;
   }
 
   .growth .highlight {
@@ -420,7 +421,7 @@ body {
     padding: 1rem;
     order: 5;
     text-align: center;
-    width: 98%;
+    width: 67%;
   }
 
   .followers small {
