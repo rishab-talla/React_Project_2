@@ -2,8 +2,10 @@
 
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
   background-color: hsl(253, 53%, 97%);
+
 }
 
 /* components/Grid.css */
@@ -13,6 +15,7 @@ body {
   column-gap: 1.5rem;
   margin: 3rem auto;
   width: 80%;
+  font-weight: 400;
 }
 
 .App-left{
@@ -46,6 +49,7 @@ body {
   font-size: 1.7rem;
   padding: 1.5rem;
   line-height: 1.8rem;
+  font-weight: 600;
 
 }
 
@@ -67,6 +71,7 @@ body {
   grid-row: 2.5 / 5;
   background: #fbc02d;
   padding: 1.5rem;
+  font-weight: 600;
 }
 
 .write-content p{
@@ -100,7 +105,8 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 2rem 3rem;
+  font-weight: 400;
 
 }
 
@@ -128,8 +134,9 @@ body {
   grid-column: 3 / 4;
   grid-row: 1 / 3;
   background: #e3d4fb;
-  padding: 2rem 0 0 2rem;
+  padding: 2rem 0 2rem 2rem;
   overflow: hidden;
+  font-weight: 650;
 }
 
 .schedule p{
@@ -137,6 +144,7 @@ body {
   margin-right: 15px;
   margin-top: 0;
   font-size: 1.5rem;
+
 }
 
 .schedule .image-block{
@@ -152,6 +160,9 @@ body {
   margin-right: 15px;
   font-size: .95rem;
   line-height: 1.1rem;
+  font-weight: 430;
+    padding: 0 .95rem;
+  font-weight: 450;
 }
 
 .manage {
@@ -160,6 +171,7 @@ body {
   background: #fff;
   overflow-x: hidden;
   padding-bottom: 1rem;
+  font-weight: 600;
 }
 
 .manage p{
@@ -185,30 +197,34 @@ body {
   grid-row: 2 / 3;
   background: #fbc02d;
   overflow-y: hidden;
+  font-weight: 600;
 }
 
 .posting p{
   font-size: 1.5rem;
   line-height: 1.6rem;
-  margin: 1.2rem 1rem 1.5rem 1.3rem;
+  margin: 1.2rem 1rem 1.8rem 1.3rem;
+  width: 80%;
 }
 
 .posting .image-block{
     width: 83%;
     margin: 0 auto;
-    height: 8px;
+    height: 0px;
 }
 
 .growth {
   grid-column: 1 / 2;
   grid-row: 3 / 4;
   background: #fff;
+  font-weight: 400;
 }
 
 .growth .highlight{
-  font-size: 3.2rem;
+  font-size: 2.9rem;
   display: block;
   margin-left: 1rem;
+  font-weight:500;
 }
 
 .growth .after-text{
@@ -217,6 +233,7 @@ body {
   margin: auto;
   font-size: 1rem;
   text-align: center;
+  font-weight:normal;
 }
 
 .growth .image-block{
@@ -232,6 +249,7 @@ body {
   display: flex;
   flex-direction: row;
   padding: 1.2rem 1.2rem 1rem 1.2rem;
+  font-weight: 500;
 }
 
 .followers .image-block{
@@ -261,9 +279,10 @@ body {
   .App {
     display: flex;
     flex-direction: column-reverse;
-    width: 90%;
+    width: 80%;
     margin: 2rem auto;
     gap: 1.7rem;
+    font-weight: 400;
   }
 
   .App-left {
@@ -276,6 +295,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1.7rem;
+    width: 100%;
+    font-weight: 400;
   }
 
   .item {
@@ -285,9 +306,10 @@ body {
   }
 
   .create-post {
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     font-size: 1.2rem;
     line-height: 1.5rem;
+     font-weight: 600;
     /* width: 98%; */
     /* margin: auto; */
   }
@@ -295,7 +317,7 @@ body {
   .create-post p {
     font-size: 1.5rem;
     line-height: 1.5rem;
-    width: 90%;
+    width: 100%;
   }
 
   .create-post img {
@@ -304,14 +326,16 @@ body {
   }
 
   .write-content {
-    padding: 1rem;
+    padding: 1.3rem;
+    font-weight: 600;
      /* width: 98%; */
   }
 
   .write-content p {
     font-size: 1.5rem;
     line-height: 1.5rem;
-    width: 70%;
+    width: 90%;
+    margin-top: 0;
   }
 
   .write-content img {
@@ -322,11 +346,12 @@ body {
 
   .headline {
     flex-direction: column;
-    padding: 1.2rem 1rem;
+    padding: 1.4rem 2.3rem;
     text-align: center;
     order: 1;
-     width: 67%;
+     /* width: 67%; */
      box-sizing: border-box;
+     font-weight: 400;
   }
 
   .headline p {
@@ -336,23 +361,23 @@ body {
 
   .headline div {
     width: 50%;
-    margin: 1rem auto 0;
+    margin: 0 auto;
   }
 
   .schedule {
-    padding: 1rem;
+    padding: 20px 5px;
     text-align: center;
     order: 4;
-    width: 67%;
+    /* width: 67%; */
   }
 
   .schedule p {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     line-height: 1.4rem;
   }
 
   .schedule .image-block {
-    width: 90%;
+    width: 100%;
   }
 
   .schedule .image-block img {
@@ -361,13 +386,12 @@ body {
   }
 
   .schedule small {
-    font-size: 1.1rem;
-    font-weight: lighter;
+    font-size: .9rem;
   }
 
   .manage{
     order: 2;
-    width: 67%;
+    /* width: 67%; */
   }
 
   .manage small {
@@ -381,7 +405,7 @@ body {
 
   .posting{
     order: 3;
-    width: 67%;
+    /* width: 67%; */
   }
 
   .posting p {
@@ -392,17 +416,18 @@ body {
 
   .posting .image-block {
     width: 73%;
-    height: 183px;
+    height: 160px;
     margin-left: 1rem;
   }
 
   .growth{
     order: 6;
-    width: 66.5%;
+    /* width: 66.5%; */
   }
 
   .growth .highlight {
     font-size: 2.4rem;
+
   }
 
   .growth .after-text {
@@ -418,17 +443,17 @@ body {
 
   .followers {
     flex-direction: column;
-    padding: 1rem;
+    padding: 0 1rem;
     order: 5;
     text-align: center;
-    width: 67%;
+    /* width: 67%; */
   }
 
   .followers small {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     line-height: 1.4rem;
-    width: 60%;
-    margin: auto;
+    width: 70%;
+    margin: 1.4rem auto;
     text-align: center;
   }
 
