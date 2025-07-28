@@ -18,6 +18,27 @@ body {
   font-weight: 400;
 }
 
+.theme-icon{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #754ef9;
+  margin-left: 10%;
+  margin-top: 10px;
+  border-radius: .7rem;
+}
+
+.theme-icon:hover{
+  cursor: pointer;
+}
+
+.themedark{
+  color: white;
+}
+
+
 .App-left{
   display: grid;
   grid-template-columns: repeat(1, 210px);
